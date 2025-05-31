@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gender Affirmation Care Portal</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>Gender Affirmation Care Portal</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#care">Care Listings</a></li>
+        <li><a href="#news">News & Policy</a></li>
+        <li><a href="#form">Enquiry</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h2>Welcome</h2>
+      <p>Explore state-wise and city-level resources for gender affirmation care. All providers listed here are vetted for safety and inclusivity.</p>
+    </section>
+
+    <section id="care">
+      <h2>Care Listings</h2>
+      <div id="listing-container">
+        <p>Loading care listings...</p>
+      </div>
+    </section>
+
+    <section id="news">
+      <h2>News & Policy Updates</h2>
+      <div id="news-container">
+        <p>Latest news will appear here.</p>
+      </div>
+    </section>
+
+    <section id="form">
+      <h2>Enquiry / Support Form</h2>
+      <form id="supportForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required />
+
+        <label for="query">Your Query:</label>
+        <textarea id="query" name="query" placeholder="How can we help?" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+      <div id="form-response"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Gender Care Portal | Safe & Inclusive for LGBTQIA+ Community</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
