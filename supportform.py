@@ -1,7 +1,7 @@
 from flask import Flask, request, redirect, flash
 
 app = Flask(__name__)
-app.secret_key = 'your_secret_key_here'
+app.secret_key = 'GenderCare345@'
 
 import pyodbc
 conn = pyodbc.connect("DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost\\SQLEXPRESS;DATABASE=gendercare;Trusted_Connection=yes;")
